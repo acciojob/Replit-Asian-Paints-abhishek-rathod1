@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+#container{
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+
+	grid-gap: 10px;
+	
+}
+
+#container div{
+	border: 1px solid black;
+	
+}
